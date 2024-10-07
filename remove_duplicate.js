@@ -32,7 +32,4 @@ const printList = (node) => {
     result.push(node.val);
     node = node.next;
   }
-  console.log(result);
 };
-
-printList(result);
